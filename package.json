@@ -1,0 +1,23 @@
+{
+  "name": "startuppageinvat",
+  "version": "1.0.0",
+  "description": "invatStartupPage",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doflada/StartupPageInvat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doflada/StartupPageInvat/issues"
+  },
+  "homepage": "https://github.com/doflada/StartupPageInvat#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
