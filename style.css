@@ -15,6 +15,7 @@ body {
 
 .colors div {
 	margin: 15px;
+	font: 600 1.0em "Raleway", sans-serif;
 	text-decoration: underline;
 }
 
@@ -37,13 +38,14 @@ h2 {
 
 #result {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 #result h3 {
 	background-color: gray;
 	border: solid 1px black;
 	border-radius: 10px;
+	margin: 5px;
 	padding: 10px;
 	font: 600 1.0em "Raleway", sans-serif;
 }
